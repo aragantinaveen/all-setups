@@ -5,7 +5,7 @@ yum install git -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
-#STEP-3: DOWNLOAD JAVA17 AND JENKINS
+#STEP-3: DOWNLOAD JAVA11 AND JENKINS
 yum install java-17-amazon-corretto -y
 yum install jenkins -y
 
