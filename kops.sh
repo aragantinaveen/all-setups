@@ -2,6 +2,9 @@
 #export PATH=$PATH:/usr/local/bin/
 #source .bashrc
 
+#kops get cluster
+#kops delete cluster (clustername) --yes
+
 
 #! /bin/bash
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
